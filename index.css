@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:blue; */
+}
+body{
+    background-image: url(clouds.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.main-app{
+    width: 60vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.6);
+    text-align: center;
+    font-size: 20pt;
+    border: none;
+    /* padding: 15px; */
+    /* margin: 5px; */
+}
+.whether-body{
+    height: 50vh;
+    line-height: 100%;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.6);
+}
+.location{
+    font-size: 15pt;
+    /* padding: 10px; */
+    margin: 20px;
+}
+.city{
+    padding: 10px;
+    margin: 10px;
+}
+.date{
+    /* font-size: 15pt; */
+    margin: 10px auto;
+}
+.whether-status{
+    padding: 10px;
+    margin: 10px;
+}
+.temp{
+    padding: 20px;
+    margin: 20px;
+    font-size: 50pt;
+    font-weight: 700;
+    text-shadow: rgba(255, 255, 255);
+}
+.min-max{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15pt;
+}
+.whether{
+    font-size: 20pt;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: 900;
+}
